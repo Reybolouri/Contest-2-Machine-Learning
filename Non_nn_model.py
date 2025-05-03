@@ -73,5 +73,5 @@ submission = pd.DataFrame({
     'id': test_df['id'],
     'y':  test_preds
 })
-submission.to_csv('submission_non_nn.csv', index=False)
+submission.to_csv('non_nn.csv', index=False)
 print("Saved → submission_non_nn.csv")
